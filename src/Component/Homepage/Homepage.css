@@ -1,0 +1,112 @@
+.home-bg{ 
+  background-image: url('C:\xampp\htdocs\Zambia\zm-mph-sadc-a-b\my-app\src\Assets\banner-mph.webp');
+  background-size: cover;
+  background-position: center; 
+  padding: 2rem;
+}
+.home-h2{
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 0px;
+    color: #272765;
+}
+.home-h1{
+    font-size: 57px;
+    text-shadow: #efe5ad 2px 2px 1px;
+    color: #272765;
+}
+.home-padding{
+    margin-top: 02%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.content-bg{
+    justify-content: end;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    background: #3d567b;
+    box-shadow: 3px 3px 3px 0 #FFEA56;
+    color: #fff;
+    margin-top: 70%;
+}
+.content-h3{
+    font-size: 19px;
+    padding: 10px;
+}
+.form-bg-head{
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+    background: #535482;
+    padding: 8px 10px 5px 25px;
+    color: #fff;
+}
+.form-bg-body{
+    color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    background: #363636 no-repeat left top / cover;
+    padding: 20px 20px 25px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-bg{
+        justify-content: end;
+        text-align: center;
+        border-radius: 15px;
+        padding: 10px;
+        background: #3d567b;
+        box-shadow: 3px 3px 3px 0 #FFEA56;
+        color: #fff;
+        margin-top: 0%;
+        margin-bottom: 23px;
+    }
+    .home-h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 0px;
+        color: #272765;
+        margin-top: 20px;
+    }
+    .home-bg {
+        background-image: url(http://localhost:3000/static/media/banner-mph.3903686….webp);
+        background-size: cover;
+        background-position: center;
+        padding: 1rem;
+    }
+    .home-h1 {
+        font-size: 50px;
+        text-shadow: #efe5ad 2px 2px 1px;
+        color: #272765;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .content-bg{
+        justify-content: end;
+        text-align: center;
+        border-radius: 15px;
+        padding: 10px;
+        background: #3d567b;
+        box-shadow: 3px 3px 3px 0 #FFEA56;
+        color: #fff;
+        margin-top: 0%;
+        margin-bottom: 23px;
+    }
+    .home-h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 0px;
+        color: #272765;
+        margin-top: 20px;
+    }
+    .home-bg {
+        background-image: url(http://localhost:3000/static/media/banner-mph.3903686….webp);
+        background-size: cover;
+        background-position: center;
+        padding: 1rem;
+    }
+    .home-h1 {
+        font-size: 50px;
+        text-shadow: #efe5ad 2px 2px 1px;
+        color: #272765;
+    }
+}

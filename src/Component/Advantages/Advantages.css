@@ -1,0 +1,55 @@
+.Advantages-video{
+    border-radius: 5px!important;
+    border: 10px solid #ffffff!important;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.15)!important;
+    margin-top: -170px;
+    height: 315;
+    width: 560;
+}
+.advantages-padding{
+    padding-top: 2rem;
+    padding-left: 2rem !important;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+}
+.card-bg{
+    background: #ffffff url(C:\xampp\htdocs\Zambia\zm-mph-sadc-a-b\my-app\src\Assets\box-bg-2.webp) no-repeat left top / cover!important;
+    border: 1px solid #e8e8e8!important;
+    padding: 1.5rem;
+}
+.button{
+    padding: 10px 30px 10px 30px;
+    font-weight: 600;
+    color: #363636;
+    border-color: #363636;
+}
+.button:hover{
+    padding: 10px 30px 10px 30px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #363636;
+}
+@media only screen and (max-width: 600px) {
+    .Advantages-video{
+        border-radius: 5px!important;
+        border: 10px solid #ffffff!important;
+        box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.15)!important;
+        height: 315;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .advantages-padding {
+        padding-top: 2rem;
+        padding-left: 1rem !important;
+        padding-bottom: 4rem;
+        padding-left: 1rem;
+    }
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: -0.02em;
+        margin-bottom: 1.5rem;
+    }
+}

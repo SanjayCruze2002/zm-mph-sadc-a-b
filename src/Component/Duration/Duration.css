@@ -1,0 +1,32 @@
+.duration-bg{
+    background-color: #535482;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 10%;
+}
+.icon-bg{
+    color: #ffffff!important;
+    background: #8c9db7!important;
+    padding: 20px 20px 20px 20px!important;
+}
+.eligibility-bg{
+    background-color: #fff;
+    padding: 20px 20px 20px 20px!important;
+}
+.eligibility-p{
+    padding-right: 15px;
+}
+.duration-p{
+    font-size: 17px;
+    padding: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .duration-bg {
+        background-color: #535482;
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 10%;
+    }
+}
